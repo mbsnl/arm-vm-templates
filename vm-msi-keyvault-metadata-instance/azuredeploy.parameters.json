@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "[resourceGroup().location]"
+      },
+      "virtualMachineName": {
+        "value": "GEN-VMNAME"
+      },
+      "virtualMachineSize": {
+        "value": "Standard_B2s"
+      },
+      "adminUsername": {
+        "value": "GEN-USERNAME"
+      },
+      "adminPassword": {
+        "value": "GEN-PASSWORD"
+      },
+      "virtualNetworkRG": {
+        "value": "GEN-RG-VNET"
+      },
+      "virtualNetworkName": {
+        "value": "GEN-VNET"
+      },
+      "subnetName": {
+        "value": "GEN-SUBNET"
+      }
+    }
+  }
