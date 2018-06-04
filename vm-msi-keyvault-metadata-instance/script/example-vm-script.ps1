@@ -48,4 +48,4 @@ catch {
     Write-Error "Error (30): $($Error[0]) - $($Error[0].Exception.InnerException)" -ErrorAction Stop
 }
 
-Write-Output "Completed $($restResult)"
+Write-Output "Completed $($restResult.id)"
