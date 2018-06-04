@@ -7,7 +7,7 @@
             "defaultValue": "[resourceGroup().location]"
         },
         "virtualMachineName": {
-            "type": "string"            
+            "type": "string"
         },
         "virtualMachineSize": {
             "type": "string",
