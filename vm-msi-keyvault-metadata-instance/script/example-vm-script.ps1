@@ -2,7 +2,7 @@
 param(
 )
 
-# Source of parameters is metadata-instance: Azure VM Tags according to our tag definition
+# Source of parameters is metadata-instance: Azure VM Tags according to our tag definition in the ARM Template
 #
 # Docs:
 # https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service
