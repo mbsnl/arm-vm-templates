@@ -36,7 +36,7 @@
     "variables": {
         "vnetId": "[resourceId(parameters('virtualNetworkRG'),'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
         "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('subnetName'))]",
-        "keyvaultName": "[ concat('vmpw', parameters('virtualMachineName'), uniqueString(resourceGroup().id)) ]"
+        "keyvaultName": "[ concat('mymsivault', parameters('virtualMachineName'), uniqueString(resourceGroup().id)) ]"
 
     },
     "resources": [
